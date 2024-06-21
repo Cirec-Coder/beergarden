@@ -8,7 +8,6 @@ const Hero = () => {
         alt="beergarden logo"
         className="mt-28"
       />
-      Hero
     </section>
   );
 };
