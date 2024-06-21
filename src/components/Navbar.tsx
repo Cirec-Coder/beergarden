@@ -5,7 +5,7 @@ import MobileNav from "./MobileNav";
 const Navbar = () => {
 
   return (
-    <header className="fixed flex justify-between sm:justify-around items-center z-50 top-0 left-0 w-full py-10 px-8 sm:px-0 bg-black bg-opacity-50">
+    <header className="fixed flex justify-between sm:justify-between items-center z-50 top-0 left-0 w-full py-10 px-8 sm:px-10 bg-black bg-opacity-50">
       <img
         src={LogoLight}
         alt="logo"
