@@ -6,7 +6,7 @@ const Hero = () => {
       <img
        src={HeroSlider}
         alt="beergarden logo"
-        className="mt-28 max-w-[350px] md:max-w-lg"
+        className="mt-28 max-w-[330px] md:max-w-lg"
       />
     </section>
   );
