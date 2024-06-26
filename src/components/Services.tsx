@@ -10,6 +10,8 @@ const Services = () => {
         <div className="flex flex-col items-center justify-center group w-1/2 sm:w-1/3 lg:w-1/6">
           <img
             src={Icon1}
+            width={96}
+            height={96}
             alt="icon 1"
             className="w-24 h-24 group-hover:bg-golden-100 rounded-full duration-1000"
           />
@@ -24,6 +26,8 @@ const Services = () => {
         <div className="flex flex-col items-center justify-center group w-1/2 sm:w-1/3 lg:w-1/6">
           <img
             src={Icon2}
+            width={96}
+            height={96}
             alt="icon 2"
             className="w-24 h-24 group-hover:bg-golden-100 rounded-full duration-1000"
           />
@@ -38,7 +42,9 @@ const Services = () => {
         <div className="flex flex-col items-center justify-center group w-1/2 sm:w-1/3 lg:w-1/6">
           <img
             src={Icon3}
-            alt="icon 3"
+            width={96}
+            height={96}
+           alt="icon 3"
             className="w-24 h-24 group-hover:bg-golden-100 rounded-full duration-1000"
           />
           <h2 className="text-xl font-bold group-hover:text-golden-100 duration-300">
@@ -52,6 +58,8 @@ const Services = () => {
         <div className="flex flex-col items-center justify-center group w-1/2 sm:w-1/3 lg:w-1/6">
           <img
             src={Icon4}
+            width={96}
+            height={96}
             alt="icon 4"
             className="w-24 h-24 group-hover:bg-golden-100 rounded-full duration-1000"
           />

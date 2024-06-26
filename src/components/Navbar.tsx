@@ -1,6 +1,6 @@
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6";
 import { LogoLight, navItems } from "../constants";
 import MobileNav from "./MobileNav";
+import { Icons } from "./Icons";
 
 const Navbar = () => {
 
@@ -16,7 +16,7 @@ const Navbar = () => {
         {navItems.map((item) => (
           <li key={item.id}>
             <a
-              className="text-white uppercase hover:text-zinc-400 duration-300"
+              className="text-white hover:text-zinc-400 duration-300"
               href={item.link}
               target="_self"
               >
@@ -31,22 +31,22 @@ const Navbar = () => {
           target="_blank"
           className="text-white hover:text-zinc-400 duration-300"
         >
-          <FaTwitter />
-        </a>
+            <Icons.Twitter width={20} height={20} />
+            </a>
         <a
           href="https://www.facebook.com/"
           target="_blank"
           className="text-white hover:text-zinc-400 duration-300"
         >
-          <FaFacebookF />
-        </a>
+            <Icons.FacebookF width={20} height={20} />
+            </a>
         <a
           href="https://www.instagram.com/"
           target="_blank"
           className="text-white hover:text-zinc-400 duration-300"
         >
-          <FaInstagram />
-        </a>
+            <Icons.Instagram width={20} height={20} />
+            </a>
       </div>
       <MobileNav />
     </header>

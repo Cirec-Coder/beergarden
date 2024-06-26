@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+  html {
+    font-family: "Oswald", system-ui, sans-serif;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,7 +18,6 @@
 }
 
 :root {
-  font-family: "Oswald", sans-serif;
   scroll-behavior: smooth;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,17 +33,14 @@
   }
 }
 
+@layer utilities {
 
-.subtitle {
-  font-family: "Times New Roman", sans-serif;
-  font-style: italic;
-  font-weight: 100;
-  font-size: initial;
-}
+  .subtitle {
+    font-family: "Times New Roman", sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 0.35em;
+  }
 
 
-.img1 {
-  /* filter: opacity(0.5) drop-shadow(0 0 0 blue);   -webkit-mask-image: url('../src/assets/images/h5-icon-1.png'); */
-  /* background:url("../src/assets/images/h5-icon-1.png") no-repeat; */
-  filter: invert(1) invert(68%) sepia(10%) saturate(1667%) hue-rotate(357deg) brightness(93%) contrast(99%);
 }

@@ -15,13 +15,12 @@ import Pin from "../assets/images/h1-pin.png";
 import LogoLight from "../assets/images/logo-light.png";
 import FooterLogo from "../assets/images/footer-logo.png";
 
-
 export const navItems = [
-    { id: 1, name: "Home", link: "#" },
-    { id: 2, name: "Tradition", link: "#tradition" },
-    { id: 3, name: "Services", link: "#services" },
-    { id: 4, name: "Menu", link: "#menu" },
-    { id: 5, name: "Contact", link: "#contact" },
+    { id: 1, name: "HOME", link: "#" },
+    { id: 2, name: "TRADITON", link: "#tradition" },
+    { id: 3, name: "SERVICES", link: "#services" },
+    { id: 4, name: "MENU", link: "#menu" },
+    { id: 5, name: "CONTACT", link: "#contact" },
   ];
   
   

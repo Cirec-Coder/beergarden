@@ -9,6 +9,7 @@ const GoogleMap = () => {
       <iframe
         width="100%"
         height="600"
+        title="Find us on google maps"
         src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Mulhouse,%20France+(Beergarden)&amp;t=k&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
       >
         <a href="https://www.gps.ie/">gps systems</a>

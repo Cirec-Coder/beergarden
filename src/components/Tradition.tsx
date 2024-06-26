@@ -30,12 +30,12 @@ const Tradition = () => {
       id="tradition"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 ">
-        <div className="py-10 text-4xl font-bold flex flex-col justify-center items-center">
-          <h1>BEER TRADITION</h1>
+        <div className="py-10 text-[clamp(1.5rem,4vw+1rem,5rem)] leading-[1.5] font-[900] flex flex-col justify-center items-center">
+          <h1 className="">BEER TRADITION</h1>
           <h2 className="subtitle">
             Tons of shortcodes provide countless options
           </h2>
-          <p className="text-center font-normal text-base mx-16 my-4">
+          <p className="text-center font-normal text-[0.45em] lg:text-[1.25rem] mx-16 my-4">
             Edge Themes give you everything you need to create an amazing
             website. Designed and built with care, filled with creative elements
             and useful options, and completely user-friendly. Set up your
@@ -52,6 +52,8 @@ const Tradition = () => {
         <div className="flex justify-center items-center bg-holder1 bg-cover">
           <img
             className="p-20"
+            width={960}
+            height={600}
             src="src/assets/images/h5-holder-image-1.png"
             alt="holder-1"
           />
@@ -61,11 +63,13 @@ const Tradition = () => {
         <div className="flex justify-center items-center bg-holder2 bg-cover">
           <img
             className="p-20"
+            width={960}
+            height={600}
             src="src/assets/images/h5-holder-image-2.png"
             alt="holder-1"
           />
         </div>
-        <div className="py-10 text-4xl font-bold flex flex-col justify-center items-center">
+        <div className="py-10 text-[clamp(1.5rem,4vw+1rem,5rem)] leading-[1.5] font-[900] flex flex-col justify-center items-center">
           <h1>PUB STORY</h1>
           <h2 className="subtitle">
             Tons of shortcodes provide countless options
