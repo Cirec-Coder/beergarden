@@ -1,4 +1,4 @@
-import { Icon1, Icon2, Icon3, Icon4 } from "../constants";
+import { Icons } from "./Icons";
 
 const Services = () => {
   return (
@@ -8,11 +8,9 @@ const Services = () => {
     >
       <div className="flex justify-center items-center gap-20 flex-wrap">
         <div className="flex flex-col items-center justify-center group w-1/2 sm:w-1/3 lg:w-1/6">
-          <img
-            src={Icon1}
-            width={96}
-            height={96}
-            alt="icon 1"
+          <Icons.H5Icon1
+            width={100}
+            height={100}
             className="w-24 h-24 group-hover:bg-golden-100 rounded-full duration-1000"
           />
           <h2 className="text-xl font-bold group-hover:text-golden-100 duration-300">
@@ -24,11 +22,9 @@ const Services = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center group w-1/2 sm:w-1/3 lg:w-1/6">
-          <img
-            src={Icon2}
-            width={96}
-            height={96}
-            alt="icon 2"
+          <Icons.H5Icon2
+            width={100}
+            height={100}
             className="w-24 h-24 group-hover:bg-golden-100 rounded-full duration-1000"
           />
           <h2 className="text-xl font-bold group-hover:text-golden-100 duration-300">
@@ -40,11 +36,9 @@ const Services = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center group w-1/2 sm:w-1/3 lg:w-1/6">
-          <img
-            src={Icon3}
-            width={96}
-            height={96}
-           alt="icon 3"
+          <Icons.H5Icon3
+            width={100}
+            height={100}
             className="w-24 h-24 group-hover:bg-golden-100 rounded-full duration-1000"
           />
           <h2 className="text-xl font-bold group-hover:text-golden-100 duration-300">
@@ -56,11 +50,9 @@ const Services = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center group w-1/2 sm:w-1/3 lg:w-1/6">
-          <img
-            src={Icon4}
-            width={96}
-            height={96}
-            alt="icon 4"
+          <Icons.H5Icon4
+            width={100}
+            height={100}
             className="w-24 h-24 group-hover:bg-golden-100 rounded-full duration-1000"
           />
           <h2 className="text-xl font-bold group-hover:text-golden-100 duration-300">
