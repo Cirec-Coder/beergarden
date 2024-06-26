@@ -35,7 +35,7 @@ const Tradition = () => {
           <h2 className="subtitle">
             Tons of shortcodes provide countless options
           </h2>
-          <p className="text-center font-normal text-[0.45em] lg:text-[1.25rem] mx-16 my-4">
+          <p className="text-center font-normal text-[clamp(0.15rem,2vw+0.5rem,1.25rem)] mx-16 my-4">
             Edge Themes give you everything you need to create an amazing
             website. Designed and built with care, filled with creative elements
             and useful options, and completely user-friendly. Set up your
@@ -74,7 +74,8 @@ const Tradition = () => {
           <h2 className="subtitle">
             Tons of shortcodes provide countless options
           </h2>
-          <p className="text-center font-normal  text-[0.45em] lg:text-[1.25rem] mx-16 my-4">
+          {/* <p className="text-center font-normal  text-[0.45em] lg:text-[1.25rem] mx-16 my-4"> */}
+          <p className="text-center font-normal text-[clamp(0.15rem,2vw+0.5rem,1.25rem)] mx-16 my-4">
             Edge Themes give you everything you need to create an amazing
             website. Designed and built with care, filled with creative elements
             and useful options, and completely user-friendly. Set up your
