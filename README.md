@@ -11,8 +11,6 @@
 ## Burger Menu
 <img src="public/screen-3.jpg"/>
 
-## Tablette
-<img src="public/screen-4.jpg"/>
 
 
 
