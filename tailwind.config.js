@@ -12,6 +12,9 @@ export default {
           100: '#e2b673',
         },
       },
+      fontFamily: {
+        raleway: "var(--font-raleway)",
+      },
       backgroundImage: {
         hero: "url('src/assets/images/h5-revolution-img-1.jpg')",
         holder1: "url('src/assets/images/h5-el-holder-img-1-1.jpg')",
